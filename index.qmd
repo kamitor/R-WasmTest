@@ -1,0 +1,13 @@
+---
+title: "WebR Test"
+format: live-html
+webr:
+  packages: [ggplot2]
+---
+
+# WebR Interactive Plot
+
+```{webr}
+library(ggplot2)
+ggplot(mtcars, aes(hp, mpg)) + geom_point()
+```

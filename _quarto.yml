@@ -1,0 +1,6 @@
+project:
+  type: website
+
+format:
+  live-html:
+    theme: cosmo
